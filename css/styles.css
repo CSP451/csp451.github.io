@@ -1,0 +1,85 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+.content i {
+	font-size: 3em;
+}
+/* Custom Styles */
+
+body {
+	background-image: url('../assets/images/azureproject.png')
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .intro-desc {
+	font-size: 1.4rem;
+}
+
+main > .tagline {
+	font-size: 1.6rem;
+	margin: 1.5rem 0;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.content i {
+	padding: 100px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
