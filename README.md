@@ -1,4 +1,4 @@
-# Welcome
+# Welcome to CSP451 Computer System Projects GitHub Pages
 
 This repo uses GitHub static page builder to host and build website for Azure Project Winter2024. 
 <!--experiments with advanced GitHub-->
