@@ -56,6 +56,11 @@ main > .intro {
 	font-weight: 600;
 }
 
+main>.useful-links {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
 main > .intro-desc {
 	font-size: 1.4rem;
 }
